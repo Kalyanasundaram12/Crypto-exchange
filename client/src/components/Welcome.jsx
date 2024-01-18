@@ -59,22 +59,22 @@ const Welcome = () => {
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
-              <a href="">Ethereum</a>
+              <a href="https://etherscan.io">Ethereum</a>
             </div>
             <div className={companyCommonStyles}>
-            <a href="">Fantom</a>
+            <a href="https://testnet.ftmscan.com/">Fantom</a>
             </div>
             <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
-            <a href="">Polygon</a>
+            <a href="https://polygonscan.com/">Polygon</a>
             </div>
             <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
-            <a href="">zkEVM</a>
+            <a href="https://testnet-zkevm.polygonscan.com/">zkEVM</a>
             </div>
             <div className={companyCommonStyles}>
-            <a href="">Goreli</a>
+            <a href="https://goerli.etherscan.io">Goreli</a>
             </div>
             <div className={`rounded-br-2xl ${companyCommonStyles}`}>
-            <a href="">Shardeum 1.X</a>
+            <a href="https://explorer-sphinx.shardeum.org/">Shardeum 1.X</a>
             </div>
           </div>
         </div>
